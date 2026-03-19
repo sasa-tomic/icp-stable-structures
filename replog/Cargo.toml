@@ -1,0 +1,12 @@
+[package]
+name = "ic-stable-replog"
+description = "Replication log for ic-stable-structures BTreeMap, enabling incremental sync and local-first database replication from IC canisters."
+edition = "2021"
+license = "Apache-2.0"
+version = "0.1.0"
+
+[dependencies]
+ic-stable-structures = { path = ".." }
+
+[dev-dependencies]
+proptest = "1.7.0"

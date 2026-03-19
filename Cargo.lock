@@ -301,6 +301,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "ic-stable-replog"
+version = "0.1.0"
+dependencies = [
+ "ic-stable-structures",
+ "proptest",
+]
+
+[[package]]
 name = "ic-stable-structures"
 version = "0.7.2"
 dependencies = [

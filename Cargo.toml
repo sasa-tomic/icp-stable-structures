@@ -37,7 +37,7 @@ bench_scope = ["dep:canbench-rs"] # May add significant overhead.
 all = "deny"
 
 [workspace]
-members = ["benchmarks"]
+members = ["benchmarks", "replog"]
 
 [workspace.dependencies]
 canbench-rs = "0.2.0"
